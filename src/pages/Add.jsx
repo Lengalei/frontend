@@ -5,7 +5,7 @@ const Add = () => {
     
     return ( 
         <div className="trial">
-            <h1>0</h1>
+            <h1>count: {count}</h1>
             <button onClick={() => {
                 setCount(count -1)
             }}>Decreament</button>
